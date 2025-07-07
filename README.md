@@ -1,6 +1,10 @@
 # ransforming Raw Sports Data into Actionable Insights with Automated Data Pipelines on Azure
 
 ## Overview
+This project demonstrates a robust end-to-end data engineering pipeline built entirely on Microsoft Azure. It involves designing, implementing, and automating scalable workflows for real-time data ingestion, transformation, storage, and reporting. The pipeline is fully managed and deployed using Azure DevOps for continuous integration and delivery (CI/CD).
+
+
+## Data Architechture
 
 
      
@@ -43,7 +47,7 @@ Azure Data Factory:     <br>
 
 
 ## Step 3: Data Storage
-### Azure Data Lake Storage Gen2:                    <br>
+Azure Data Lake Storage Gen2:                    <br>
 Used to store raw, staged, and transformed data.     <br>
 Followed structured folder hierarchy:                <br>
  - raw data as Bronze Layer                             <br>
@@ -53,11 +57,11 @@ Followed structured folder hierarchy:                <br>
 
 
 ### Step 4: Data Processing & Transformation
-### Azure Databricks:                                   
+Azure Databricks:                                   
  - Developed notebooks using PySpark for data cleaning, transformation, and enrichment.
  - Handled tasks such as filtering, aggregation, and schema alignment.
 
-### Delta Lake:
+Delta Lake:
  - Implemented for reliable and performant storage.
  - Enabled ACID transactions, versioning, and time travel features.
 
@@ -69,7 +73,7 @@ Azure Synapse Analytics:
 ### Step 6: Pipeline Automation & CI/CD
 Azure DevOps:
 - Created CI/CD pipelines for version control, automated deployment, and monitoring.
- - Enabled consistent deployment of data factory pipelines and Databricks notebooks across environments.
+- Enabled consistent deployment of data factory pipelines and Databricks notebooks across environments.
 
 
 
