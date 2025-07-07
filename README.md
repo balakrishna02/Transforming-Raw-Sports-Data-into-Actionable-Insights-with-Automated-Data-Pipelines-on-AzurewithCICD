@@ -1,4 +1,4 @@
-# ransforming Raw Sports Data into Actionable Insights with Automated Data Pipelines on Azure
+# Transforming Raw Sports Data into Actionable Insights with Automated Data Pipelines on Azure
 
 ## Overview
 This project demonstrates a robust end-to-end data engineering pipeline built entirely on Microsoft Azure. It involves designing, implementing, and automating scalable workflows for real-time data ingestion, transformation, storage, and reporting. The pipeline is fully managed and deployed using Azure DevOps for continuous integration and delivery (CI/CD).
