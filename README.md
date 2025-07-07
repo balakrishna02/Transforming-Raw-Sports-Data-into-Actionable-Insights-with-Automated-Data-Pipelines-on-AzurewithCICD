@@ -18,47 +18,37 @@
 
 
 
-Project Steps
-Step 1: Environment Setup
-Created and configured Azure account with necessary resource groups.
+## Step 1. Environment Setup
 
-Provisioned essential Azure services:
+Created and configured Azure account with necessary resource groups.     <br>
+Provisioned essential Azure services:     <br>
 
 Azure Data Factory
-
 Azure Data Lake Storage Gen2
-
 Azure Databricks
-
 Azure Synapse Analytics
-
-Power BI
-
 Azure DevOps for CI/CD
 
-Step 2: Data Ingestion
-Sources: Simulated data streams from CSV files and APIs.
 
-Azure Data Factory:
 
-Configured pipelines for scheduled/real-time ingestion.
+## Step 2: Data Ingestion
 
-Connected to APIs via HTTP connectors and to files via blob and lake connectors.
 
-Loaded raw data into Azure Data Lake Storage.
+Sources: Simulated data streams from CSV files and APIs.     <br>
+Azure Data Factory:     <br>
+Configured pipelines for scheduled/real-time ingestion.     <br>
+Connected to APIs via HTTP connectors and to files via blob and lake connectors.     <br>
+Loaded raw data into Azure Data Lake Storage.     <br>
 
-Step 3: Data Storage
-Azure Data Lake Storage Gen2:
 
-Used to store raw, staged, and transformed data.
 
-Followed structured folder hierarchy:
-
-raw/
-
-staging/
-
-processed/
+## Step 3: Data Storage
+### Azure Data Lake Storage Gen2:     <br>
+Used to store raw, staged, and transformed data.     <br>
+Followed structured folder hierarchy:     <br>
+raw data as Bronze Layer
+staging data as Silver Layer
+processed data as Gold Layer
 
 Step 4: Data Processing & Transformation
 Azure Databricks:
