@@ -23,11 +23,11 @@
 Created and configured Azure account with necessary resource groups.     <br>
 Provisioned essential Azure services:     <br>
 
-Azure Data Factory
-Azure Data Lake Storage Gen2
-Azure Databricks
-Azure Synapse Analytics
-Azure DevOps for CI/CD
+Azure Data Factory               <br>
+Azure Data Lake Storage Gen2     <br>
+Azure Databricks                 <br>
+Azure Synapse Analytics          <br>
+Azure DevOps for CI/CD           <br>
 
 
 
@@ -36,21 +36,23 @@ Azure DevOps for CI/CD
 
 Sources: Simulated data streams from CSV files and APIs.     <br>
 Azure Data Factory:     <br>
-Configured pipelines for scheduled/real-time ingestion.     <br>
-Connected to APIs via HTTP connectors and to files via blob and lake connectors.     <br>
-Loaded raw data into Azure Data Lake Storage.     <br>
+     Configured pipelines for scheduled/real-time ingestion.     <br>
+     Connected to APIs via HTTP connectors and to files via blob and lake connectors.     <br>
+     Loaded raw data into Azure Data Lake Storage.     <br>
 
 
 
 ## Step 3: Data Storage
-### Azure Data Lake Storage Gen2:     <br>
+### Azure Data Lake Storage Gen2:                    <br>
 Used to store raw, staged, and transformed data.     <br>
-Followed structured folder hierarchy:     <br>
-raw data as Bronze Layer
-staging data as Silver Layer
-processed data as Gold Layer
+Followed structured folder hierarchy:                <br>
+raw data as Bronze Layer                             <br>
+staging data as Silver Layer                         <br>
+processed data as Gold Layer                         <br>
 
-Step 4: Data Processing & Transformation
+
+
+###Step 4: Data Processing & Transformation
 Azure Databricks:
 
 Developed notebooks using PySpark for data cleaning, transformation, and enrichment.
