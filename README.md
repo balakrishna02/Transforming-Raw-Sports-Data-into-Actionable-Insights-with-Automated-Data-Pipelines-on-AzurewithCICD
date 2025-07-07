@@ -40,14 +40,14 @@ Azure DevOps for CI/CD           <br>
 
 Sources: Simulated data streams from CSV files and APIs.     <br>
 Azure Data Factory:     <br>
-     Configured pipelines for scheduled/real-time ingestion.     <br>
-     Connected to APIs via HTTP connectors and to files via blob and lake connectors.     <br>
-     Loaded raw data into Azure Data Lake Storage.     <br>
+    - Configured pipelines for scheduled/real-time ingestion.     
+    - Connected to APIs via HTTP connectors and to files via blob and lake connectors.     
+    - Loaded raw data into Azure Data Lake Storage.     
 
 
 
 ## Step 3: Data Storage
-Azure Data Lake Storage Gen2:                    <br>
+Azure Data Lake Storage Gen2:                         <br>
 Used to store raw, staged, and transformed data.     <br>
 Followed structured folder hierarchy:                <br>
  - raw data as Bronze Layer                             <br>
@@ -68,7 +68,7 @@ Delta Lake:
 ### Step 5: Data Querying
 Azure Synapse Analytics:
  - Connected to processed Delta tables.
- - Performed complex SQL queries and created analytical datasets for reporting.
+ - Can Perform SQL queries and created analytical datasets for reporting.
 
 ### Step 6: Pipeline Automation & CI/CD
 Azure DevOps:
