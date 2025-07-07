@@ -46,38 +46,30 @@ Azure Data Factory:     <br>
 ### Azure Data Lake Storage Gen2:                    <br>
 Used to store raw, staged, and transformed data.     <br>
 Followed structured folder hierarchy:                <br>
-raw data as Bronze Layer                             <br>
-staging data as Silver Layer                         <br>
-processed data as Gold Layer                         <br>
+ - raw data as Bronze Layer                             <br>
+ - staging data as Silver Layer                         <br>
+ - processed data as Gold Layer                         <br>
 
 
 
-###Step 4: Data Processing & Transformation
-Azure Databricks:
+### Step 4: Data Processing & Transformation
+### Azure Databricks:                                   
+ - Developed notebooks using PySpark for data cleaning, transformation, and enrichment.
+ - Handled tasks such as filtering, aggregation, and schema alignment.
 
-Developed notebooks using PySpark for data cleaning, transformation, and enrichment.
+### Delta Lake:
+ - Implemented for reliable and performant storage.
+ - Enabled ACID transactions, versioning, and time travel features.
 
-Handled tasks such as filtering, aggregation, and schema alignment.
-
-Delta Lake:
-
-Implemented for reliable and performant storage.
-
-Enabled ACID transactions, versioning, and time travel features.
-
-Step 5: Data Querying
+### Step 5: Data Querying
 Azure Synapse Analytics:
+ - Connected to processed Delta tables.
+ - Performed complex SQL queries and created analytical datasets for reporting.
 
-Connected to processed Delta tables.
-
-Performed complex SQL queries and created analytical datasets for reporting.
-
-Step 6: Pipeline Automation & CI/CD
+### Step 6: Pipeline Automation & CI/CD
 Azure DevOps:
-
-Created CI/CD pipelines for version control, automated deployment, and monitoring.
-
-Enabled consistent deployment of data factory pipelines and Databricks notebooks across environments.
+- Created CI/CD pipelines for version control, automated deployment, and monitoring.
+ - Enabled consistent deployment of data factory pipelines and Databricks notebooks across environments.
 
 
 
