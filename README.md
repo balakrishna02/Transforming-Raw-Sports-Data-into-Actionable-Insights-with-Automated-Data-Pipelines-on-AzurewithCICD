@@ -1,4 +1,3 @@
-# ABOUT
 # Transforming Raw Sports Data into Actionable Insights with Automated Data Pipelines on Azure
 
 ## Overview
