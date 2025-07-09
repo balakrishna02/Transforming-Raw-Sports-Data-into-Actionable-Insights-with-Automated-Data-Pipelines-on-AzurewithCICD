@@ -6,6 +6,7 @@ This project demonstrates a robust end-to-end data engineering pipeline built en
 
 ## Data Architechture
 
+![architecture](https://github.com/user-attachments/assets/c3785460-4539-4dfd-b6b3-2e02f8d14bfc)
 
      
 ## Technology Used
